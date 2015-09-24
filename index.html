@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>my website !</title>
+          <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+     </head>
+     <body>
+         <div id="all-contenets">
+             <nav>
+                 <header>Sheba's Glorious Website</header>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+             </nav>
+             <main>
+                <div class="sidebar">
+                    <img src='http://media.tumblr.com/b2aca34e0a23e2c46e5ec6e906d6b482/tumblr_inline_mhhlzaSdUi1qz4rgp.gif '/>
+                </div>
+                <div class="content">
+                   <header>Desmond</header>
+                   
+                   <p>whatever man</p>
+                   <ul>
+                       <li>i like laying in a hamic</li>
+                       <li>i love drawing flowers and eyes</li>
+                       <li>im a little lazy</li>
+                       
+                   </ul>
+                </div>
+             </main>
+         </div>
+     </body>
+</html>
